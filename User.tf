@@ -1,6 +1,7 @@
 provider "aws" {
     region = "ap-south-1"
-    profile = "perf-dept"
+    access_key = "access_key"
+    secret_key = "secret_key"
 }
 
 resource "aws_iam_user" "create_user" {
